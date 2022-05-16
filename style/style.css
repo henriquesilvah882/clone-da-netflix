@@ -1,0 +1,250 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #141414;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+         
+} 
+
+.icons8-icon{
+    width: 25px;
+    height: 25px;
+    filter: invert(1);
+    margin-left: 30px;
+    cursor: pointer;
+    
+}
+
+header .container-logo{
+    position: absolute;
+    top: 0;
+    display: flex;
+    margin-left: 65px;
+    margin-top: 65px;
+    align-items: flex-end;
+       
+}
+
+.navbar-menu{
+    width: 25px;
+   height: 25px;
+   filter: invert(1);
+   margin-left: 30px;
+   cursor: pointer;
+}
+
+.navbar-menu > img {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+
+header nav a{
+    text-decoration: none;
+    font-size: small;
+    color: #aaa;
+    margin-right: 5px;
+    margin-left: 30px;
+    
+    
+    
+    
+}
+
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0.50), rgba(0,0,0,.50)60%), url('../img/AftVTQuXw2R0SZkSLPZ4aZB72LJ.jpg');
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+}
+
+.titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.botao{
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-radius: 7px;
+    color: white;
+
+    padding: 10px 30px;
+    margin-right: -20px;
+    transition: .3s ease all;
+    margin-left: 30px;
+    cursor: pointer;
+   
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao svg{
+    margin-right: 10px;
+   vertical-align: -5px;
+}
+
+.container{
+    margin-left: 30px;
+   
+}
+
+.filme-principal .container{
+    width: 60%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 2%;
+}
+
+.menus svg{
+    text-decoration: none;
+    font-size: small;
+    color: #aaa;
+    margin-right: 5px;
+    margin-left: 30px;
+
+    
+
+}
+
+.carrosel-filmes h2{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  margin-top: -30px;
+  margin-left: 60px;
+}
+
+.carrosel-filmes2 h2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.carrosel-filmes3 h2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 60px;
+
+}
+
+.carrosel-filmes{
+    position: relative;
+    margin-top: -10vh;
+    background: linear-gradient(to bottom, red 6vh blue 20vh);
+}
+
+.owl-carousel{
+    cursor: pointer;
+}
+
+.icon{
+    
+    width: 25px;
+    color: white;
+    filter: invert(1);
+    margin-right: 30px;
+    cursor: pointer;
+
+    
+}
+
+footer{
+    padding: 32px 48px;
+    color: white;
+
+}
+
+footer > *{
+    margin-top: 32px;
+}
+
+footer > *:first-child{
+    margin-top: 0;
+}
+
+footer > .foot-info > ul{
+    list-style: none;
+    display: flex; 
+    flex-wrap: wrap;
+    
+      
+}
+
+footer > .foot-info > ul > li{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px 0;
+    flex: 1 0 25%;
+    
+    
+
+}
+
+.col-12{
+    color: white;
+
+}
+
+.botao > a{
+    text-decoration: none;
+    color: white;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.botao > a:hover{
+    background-color: white;
+    color: black;
+}
